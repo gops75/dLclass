@@ -42,7 +42,7 @@ Total params: 63920
 Trainable params: 63920
 Non-trainable params: 0
 
-**Validation Accuracy: 98.6%**
+**Validation Accuracy: 98.4%**
 
 Original validation accuracy of the model before the introduction of 20 3 x 3 filters is 98.29%.
 
@@ -90,9 +90,9 @@ Total params: 16642
 Trainable params: 16642
 Non-trainable params: 0
 
-**Validation Accuracy: 98.89%**
+**Validation Accuracy: 99.05%**
 
-This is better than the previous attempt (98.6%) and the original validation accuracy of 98.29%
+This is better than the previous attempt (98.4%) and the original validation accuracy of 98.29%
 
 I have not tried adjusting the batch-size, number of epochs.
 
