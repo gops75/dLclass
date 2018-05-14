@@ -10,7 +10,7 @@ Without using 5 x 5 filter and MaxPooling (to reduce the output size and hence t
 
 Here I used 20 layers of filter 3 x 3 as a 2nd layer pushing the previous 10 layers of 1 x 1 to the third layer.
 
-The code for the same is given below:
+The code for the same is submitted in the github account, the link to which is [Attempt 1 - 98.4% Validation Accuracy](https://github.com/gops75/dLclass/blob/master/s4/inkersDL_p1_1stDNN.ipynb) and the model definition part is given below:
 
 ```
 from keras.layers import Activation
@@ -51,6 +51,8 @@ Original validation accuracy of the model before the introduction of 20 3 x 3 fi
 In the second attempt, I used 5 x 5 filter instead of the earlier 3 x 3 filters but kept the number of filters as the same i.e., 32 filters of size 5 x 5.
 
 Another major difference is that I used a MaxPooling layer to reduce the image size in the 3rd layer from 22 x 22 x 20(channels) to a size of 11 x 11 x 20(channels) using the 2 x 2 pooling matrix with a stride of 2. This considerably reduced the number of model parameters.
+
+The code for the same is submitted in the github account, the link to which is [Attempt 2 - 99.05% Validation Accuracy](https://github.com/gops75/dLclass/blob/master/s4/inkersDL_p1r2_1stDNN.ipynb) and the model definition part is given below:
 
 ```
 from keras.layers import Activation
